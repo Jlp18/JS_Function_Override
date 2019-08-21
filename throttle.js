@@ -18,4 +18,4 @@ function fn() {
 }
 
 // test
-addEventListener('scroll', fn(throttle, 1000));
+addEventListener('scroll', throttle(fn, 1000));
