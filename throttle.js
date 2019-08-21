@@ -12,3 +12,10 @@ function throttle(action, delay){
         }
     }
 }
+
+function fn() {
+    console.log('节流');
+}
+
+// test
+addEventListener('scroll', fn(throttle, 1000));
