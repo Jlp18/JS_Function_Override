@@ -9,6 +9,7 @@ function instanceOf(left, right){
         if(leftValue === right){
             return true;
         }
-        leftValue = rightValue.__proto__;
+        // fixed
+        rightValue = rightValue.__proto__;
     }
 }
